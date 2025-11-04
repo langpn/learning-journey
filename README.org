@@ -1,0 +1,110 @@
+:PROPERTIES:
+:ID:       2da6d25e-b92c-4126-8ffb-c9036a652570
+:END:
+#+title: How I learn and improve English like as developer
+#+filetags: :draft:article:
+#+options: toc:t
+
+*Lưu ý:*
+- /Bài viết này được viết với mục đích củng cố và cải thiện kiến thức của tôi, hoàn toàn không có ý nghĩa đóng góp. Tương lai một ngày nào đó tôi sẽ chỉnh sửa để có thể có giá trị với cộng đồng/.
+- /Đây là quá trình học phù hợp với tôi có thể không phù hợp với bạn. Hãy cân nhắc khi áp dụng toàn bộ quá trình này./
+- /Tôi học có mục đích và mục tiêu cụ thể, "tiếng Anh là ngôn ngữ 'chủ đạo' và quan trọng bậc nhất cho lập trình viên", vì vậy hãy kiếm một mục tiêu cho bạn trước khi tiếp tục. Nhưng đừng hiểu lầm, tiếng Anh chỉ là công cụ để bạn tiến xa hơn, thứ bạn đang đầu tư, là lập trình./
+- /Quá trình này đòi hỏi bạn phải cố gắng thực hiện mọi thứ bằng tiếng Anh và có thể, hãy hạn chế sử dụng tiếng mẹ đẻ./
+- /Mọi cách thức hay phương pháp học tập đều nên luyện tập dựa trên: *DP* - _Deliberate Practice_./
+- /Bài viết đang trong quá trình hoàn thiện./
+
+* 2 yếu tố chính
+- Vocabulary (Pronunciation/IPA): Từ vựng (phổ biến) trong tiếng Anh có thể được coi là đơn giản và có tần suất lặp đi lặp lại rất nhiều. Vì vậy học những từ phổ biến sẽ giúp bạn hiểu rõ về ngôn ngữ này hơn, bên cạnh đó thì phát âm và phiên âm cũng không kém quan trọng cho kỹ năng nghe và nói.
+  /Tài nguyên: [[https://www.oxfordlearnersdictionaries.com/][Oxford Learner's Dictionary]] - 3000 words/.
+- Grammar: Ngữ pháp tiếng Anh rất nhiều và phức tạp. Làm tăng độ khó khi bạn muốn thành thạo ngôn ngữ này.
+  /Tài nguyên: Grammer English in Use - 2 cuốn Essential (đỏ) và Intermediate (xanh dương)/.
+- Vì vậy cách học tốt nhất không phải là bắt đầu với lý thuyết mà giống như cách học tốt nhất trong lập trình, hãy thực hành - /Project Based Learning/. Để làm được điều đó, buộc bạn phải 'đắm chìm' vào tiếng Anh liên tục (đủ chăm chỉ). Khi đó, *SRS* - /Spaced Repetition System/ mới thật sự có tác dụng, và giúp bạn học 'đủ nhanh và đủ tốt' hơn rất nhiều phương pháp như tạo flashcard.
+** Cách học từ vựng thông qua articles/documentations
+- Sau khi đã capture được những từ vựng muốn học trong quá trình đọc (trong phần /quá trình học tập/), tiến hành sử dụng từ điển Oxford để *nghe phát âm, định nghĩa Anh - Anh, xem câu ví dụ, xem Word Family (các dạng khác của từ)*.
+- Để nâng cao - _củng cố sự hiểu biết_, sử dụng Flashcard (Anki) với phương pháp *SRS* để luôn "giữ" từ vựng bộ lọc trong phần /Tạo Flashcard/
+- Nâng cao, để tiến xa hơn nữa, tận dụng biết "sản xuất", sử dụng từ vựng đã học trong Writing và Speaking
+** Tạo Flashcard
+- Bộ lọc: Mục đích chính là "Bạn có cần từ này để phục vụ bản thân ở tương lai hay không?"
+  1. Từ này có ký hiệu key 🔑 hay không?
+  2. Từ này ở cấp độ B1, B2, C1 hay không?
+  3. Đây có phải là thuật ngữ lập trình quan trọng (jargon) tương lai sẽ cần dùng hay không?
+  4. Cảm giác "Hình như từ này đã gặp (đã tra) từ này rồi!"
+- Cách tạo Card "chất lượng" - không dùng card có dạng "Từ vựng" <-> "Nghĩa"
+  + Tạo card dạng "Cloze Deletion" (điền vào chỗ trống): Đây là phương pháp tốt nhất
+  + Lấy nguyên câu ví dụ:
+    + Mặt trước: ~The new framework is more [...] and handles errors gracefully.~
+    + Mặt sau:
+      * Câu trả lời: ~The new framework is more **robust** and handles errors gracefully.~
+      * Thêm định nghĩa từ Oxford: ~(adjective) strong and unlikely to break or fail.~
+      * Thêm phát âm
+
+
+* Sự cần thiết của 4 Kỹ năng
+- Reading: Kỹ năng quan trọng nhất trong việc học kiến thức, cũng là phương pháp học tập tốt nhất khi kết hợp với thực hành.
+  Phương pháp sử dụng: dựa trên /Three Pass Reading/, /Project Based Learning/
+  Tài nguyên: /Articles (TOP - The Odin Project)/, /Documentations/
+- Writing: Quan trọng không kém trong công việc, và trong quá trình cũng cố và cải thiện kiến thức.
+  Phương pháp sử dụng: dựa trên /Three Pass Reading/ (viết phác thảo tạo outline, viết chi tiết, thực hiện đọc tổng quát đến chi tiết và tinh chỉnh), /Zettelkasten/, /Feynman Technique/, /Project Based Learning/
+  Tài nguyên: /Thực hành viết mọi thứ với tiếng Anh (Zettel, Commit messages, README.md file), có thể bắt chước viết theo mẫu hoặc theo một quy chuẩn nhất định/
+- Listening - Speaking: Bộ kỹ năng quan trọng để tiến xa hơn, giúp đạt được vị trí tham vọng và nâng cao giá trị của bản thân...
+  Phương pháp sử dụng: dựa trên /Three Pass Reading/ (Thực hiện nghe tổng quát đến nghe chi tiết và chép chính tả), /Shadowing/, /Feynman Technique/
+  Tài nguyên: /Podcast Programming/, /Feynman Technique/
+
+
+* Quá trình học tập
+- Việc đầu tiên của việc học, đó phải là chọn 'ĐÚNG' tài nguyên và cách học. Đúng hơn là Mindset học tập, bản thân tôi là người được trải nghiệm khá nhiều mô hình học, vì trước đây không phải là một người chăm học. Khi cần biết bản thân buộc phải đến lúc cố gắng, nỗ lực học tập (có mục đích), điều đầu tiên tôi muốn có là cách học 'Gian lận - Cheating', tôi luôn tìm kiếm cách học nhanh nhất, tốt nhất, hiệu quả nhất. Và tôi tìm kiếm đến khóa học online, remote, ... nhưng không hoàn toàn hiệu quả. Đại đa số khóa học của họ chỉ là đang phục vụ cho mục đích giảng dạy của họ, chứ không phải hoàn toàn là vấn đề của bạn. Vì vậy rất khó để nói có khóa học nào là tốt nhất, nhanh nhất và hiệu quả nhất ngoài việc bạn phải chật vật tự nghiên cứu và giải quyết vấn đế của bạn, đó mới là cách học tốt nhất, nhanh nhất và hiệu quả nhất. Và chỉ những ai đủ chăm chỉ, giành nhiều giờ để học tập, thì mới có thể trở nên tốt hơn như họ mong muốn.
+- Sau khi mất khá nhiều tiền bạc và thời gian, thì tôi mới nhận ra cách học tập thực sự, là buộc bạn phải 'đắm mình' vào thứ bạn muốn học, và bạn cần biết bạn phải làm gì tiếp theo (nếu mục tiêu quá lớn - chia nhỏ), tập trung vào trọng tâm vấn đề, bắt đầu nghiên cứu, thực hành -> mắc lỗi -> lặp lại -> hoàn thiện -> tiếp tục tiến lên (thoát ra khỏi vùng an toàn) và tiếp tục lặp lại quá trình. Và điều đó chỉ tồn tại trong khi thực sự thực hành, thực sự nghiên cứu. Và đại đa số tài liệu giúp bạn nghiên cứu sẽ là documentations, articles, ... được viết bằng tiếng Anh bởi người nói tiếng Anh.
+- Nhưng nếu chỉ vậy thì làm sao để cải thiện tiếng Anh trong khi đó không phải là ngôn ngữ mẹ đẻ chứ? Đúng, do đó, như đã nói ở trên, bạn sẽ hiểu rằng quá trình này buộc bạn phải chăm chỉ hơn bao giờ hết.
+
+
+** Chọn tài liệu phù hợp để bắt đầu đọc và học cách đọc
+- The Odin Project là tài liệu đầu tiên cho người mới bắt đầu, họ sẽ hướng dẫn tất tần tật về hướng đi tốt, tư duy mà một lập trình viên nên có, điều mà các khóa học sẽ và khó có thể nào đem lại cho chúng ta.
+- Trong quá trình đọc bài viết/tài liệu, bạn cần sử dụng phương pháp *3PR* - /Three Pass Reading/ để có thể đọc chi tiết nhất có thể, mà theo kịp 'dòng chảy' của bài viết/tài liệu, mà không bị 'mất nhịp' khi đọc và mất nhiều thời gian để đọc lại.
+- Trước khi tiến hành đọc chi tiết với *3PR*, *bạn cần phải đặt mục tiêu cụ thể trước khi đọc*, mục tiêu phải là rất nhỏ, có thể đo lường được, liên quan đến bài viết/tài liệu hoặc khía cạnh yếu của bạn.
+- Lưu ý: trong quá trình bạn sẽ gặp phải từ vựng mới, nếu chỉ đang trong bước (lần đọc) 1 và 2, chỉ nên 'capture - ghi nhanh lại' và để đến bước 3 mới bắt đầu xử lý từ vựng. Nếu khó để hiểu, cố gắng đoán nghĩa, hoặc có thể dịch sang tiếng mẹ đẻ để hiểu nhưng tránh lạm dụng.
+*** Áp dụng /Three Pass Reading/ khi đọc như thế nào?
+1. First Pass: The bird's eye - Lần đọc đầu tiên với 'cái nhìn tổng quan'
+   - Bạn sẽ đọc sơ lược cái nội dung sau của bài viết:
+     + title (tiêu đề - tên bài viết), abstract (tóm tắt), và introduction
+     + headings - subheadings (các tiêu đề cha - con nằm trong bài viết)
+     + conclusion (kết luận)
+     + reference (các liên kết tham khảo)
+   - Sau khi đọc xong, bạn sẽ trả lời 5 câu hỏi chữ C (*đây gọi là đọc kiểm tra*) *để quyết định xem nó có đáng đọc hay không* (hoặc đại loại như câu hỏi này: bài viết này dạy mình về điều gì? (A) (B) hay (C), thứ tự của chúng như thế nào) ?: category (thể loại), context (ngữ cảnh), correctness (tính đúng đắn), contributions (tính đóng góp), clarity (tính rõ ràng)
+   - Nếu không thể trả lời, *lặp lại* quá trình này cho đến khi có thể trả lời được, đây chính là /Deliberate Practice/. Lưu ý: nên đặt giới hạn thời gian để tránh xao nhãn, dễ thực hiện nghiêm túc và đạt kết quả tốt hơn
+2. Second Pass: Grasping the content - Nắm bắt nội dung và chi tiết.
+   - Ở lần đọc này bạn phải nắm nội dung chi tiết của từng phần (heading or subheading), và *tự hỏi mình những câu hỏi (tức là chủ động đọc)* liên quan đến phần này?
+   - Nếu có code (khó) hoặc khái niệm logic phức tạp, chỉ đọc thoáng qua và tiếp tục đọc các phần sau, mục tiêu là giữ được mạch đọc và nội dung chi tiết của phần, code (khó) hoặc logic phức tạp sẽ được nghiên cứu ở lượt đọc thứ 3
+   - Nếu thất bại, Lặp lại quá trình cho đến khi thành công
+3. Third Pass: Indepth Understand - Hiểu biết chuyên sâu và tổng hợp. Đây sẽ là quá trình học nhiều nhất và gian nan nhất nếu như bạn là người mới bắt đầu. Đừng nản lòng, mọi thứ rồi sẽ tốt lên theo thời gian mà bạn nỗ lực mỗi ngày.
+   a. Thực hành code, sử dụng logic phức tạp: *Chủ động học dựa trên ví dụ thông qua tài liệu trừu tượng* - tức là tự gõ lại code, tuyệt đối không copy - paste. Mắc lỗi (cố gắng vật lộn khi bạn đến giới hạn, nếu không thể, chỉ xem phần liên quan và đặt câu hỏi tại sao?) - lặp lại cho đến khi thành công. Cuối cùng, xem lại và cải tiến (có thể làm tốt hơn phần nào không?), đây là bước cuối cùng giúp bạn 'Pushing Beyond the Comfort Zone - thoát ra khỏi vùng an toàn' và luôn luôn tiến xa hơn.
+   b. Học từ vựng đã capture trước đó (sẽ có một phần đọc riêng về học từ vựng)
+   c. Sử dụng từ vựng đã học và áp dụng /Feynman Technique/ để _nói_ (ưu tiên nói khi bạn cần cải thiện kỹ năng này và đã hiểu tiếng Anh ở một trình độ nhất định) hoặc _viết_ (ưu tiên viết khi bạn là người mới) (bằng tiếng Anh) hoặc càng tốt khi thực hiện cả hai, tưởng tượng như bạn giảng cho một người mới (hoặc 'yellow duck'). Tự hỏi lời giảng của bạn có trôi chảy không, vấp ở đâu? Điểm yếu là ở đó, lặp lại đến khi bạn cảm thấy thõa mãn.
+   d. Viết zettel nếu như bạn cảm thấy tương lai sẽ cần đến (cần hiểu rõ về cách viết a good zettel: atomic zettel và mối quan hệ X-Y trong các Zettel - vi phạm quy tắc DRY)
+
+
+** Sau khi đọc và trong quá trình học tập, thu thập kiến thức
+- Thực hành code và viết commit messages, README.md file (có thể bắt chước, viết tham khảo từ ai đó hoặc viết theo một quy chuẩn cụ thể và thông qua đó học tiếng Anh)
+- Viết Zettel và sử dụng *SRS* (có thể sử dụng Flashcard hoặc *quá trình là đủ nếu như bạn đủ chăm chỉ* - không khuyến khích tạo nhiều flashcard không cần thiết, ratio signal-to-noise sẽ thấp - nhiễu nhiều hơn là tín hiệu và làm hỏng hệ thống của bạn) nếu như cần củng cố và cải thiện hiểu biết.
+
+
+** Điều quan trọng nhất
+- Điều quan trọng nhất là /Deliberate Practice/. Bạn cần hiểu rõ nó như thế này, trước khi bắt đầu, bạn cần có một mục tiêu cụ thể (đủ nhỏ), để bạn có thể tập trung cao độ 100%, khi bạn thực hành, chắc chắn sẽ có lúc mắc lỗi, tới đây - điều cốt lõi của phương pháp này sẽ phát huy tác dụng, đó là 'Repetition and Refinement' - liên tục lặp lại và tinh chỉnh, điều này song song đó cũng yêu cầu bạn có một vòng lặp phản hồi để biết mình mắc lỗi ở đâu, 'điểm yếu' để cải thiện, để luyện tập là gì? Cho đến khi bạn thành công, một thử thách lớn lao khác đó là bước ra khỏi vùng an toàn, bạn phải xem xét và xem mình có thể làm tốt hơn như thế nào nữa không, hoặc tiến xa hơn như thế nào tiếp theo? Vâng, rất mệt, rất phức tạp, nhưng tin tôi, thời gian bạn bỏ ra là xứng đáng.
+- Một điều nữa, sự chủ động là nằm hoàn toàn ở bạn, và không một phương pháp hay kỹ thuật nào có thể giúp bạn nếu như bạn không muốn. Không ai có thể bắt bạn phải 'dậy đúng giờ, học tập, cố gắng, nỗ lực mỗi ngày' nếu như bạn không muốn, hoặc bạn cũng có thể 'nằm lười, ngủ nướng, cắm mặt vào điện thoại để xem phim, chơi game, ...' nếu như bạn muốn. Mọi thứ đều tùy thuộc ở bạn, thành công là lựa chọn của bạn, thất bại cũng là lựa chọn của bạn.
+
+
+* Cam kết mỗi ngày (draft - bản nháp)
+** Shadowing
+- Luyện tập với phương pháp Shadowing mỗi ngày khoảng 15 phút với tài nguyên podcast lập trình từ đơn giản đến nâng cao
+** Grammar
+- Tuân thủ lộ trình của cuốn sách Grammer English In Use (Cuốn Essential - đỏ và Imtermediate - xanh dương) 30 phút mỗi ngày - lời khuyên: nên chủ động học, "sản xuất" nội dung có sử dụng grammar đã học để thực hành Writing and Speaking.
+
+
+* Đọc thêm
+- Các phương pháp được đề cập:
+  + [[id:e1f4e157-9d1e-49fd-aa20-3a5e44787e6f][Deliberate Practice]] - thực hành có chủ đích, cải thiện điểm yếu của bản thân có chọn lọc.
+  + [[id:1eaae5af-aef2-4717-a246-dde54a9af558][Three Pass Reading]] - thực hành đọc chi tiết, không mất nhịp khi đọc và tránh mất thời gian đọc lại
+  + Project Based Learning
+  + Spaced Repetition
+  + [[id:91f977f9-4d7f-422b-b0f6-361100ac6cbb][Shadowing Method in English]]
+
+- /Tôi sẵn sàng nghe mọi lời góp ý từ bạn. Thông tin đến tôi, Email: langpn.dev@gmail.com/.
